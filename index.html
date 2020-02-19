@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Personal portfolio</title>
+  <meta name="description" content="Personal portfolio page">
+  <meta name="author" content="Milan Celap">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
+  <script src="https://kit.fontawesome.com/85533ee696.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header-wrapper"> 
+  <div class="nav-container" id="navbar">
+    <div class="nav-wrapper">
+      <div class="site-logo">
+        <a class="site-brand" href="#home">
+          <div class="logo-icon" alt="logo">
+            <img src="https://live.staticflickr.com/65535/49530042271_e9db1af59d_o.png" alt="Milan Ćelap logo">
+          </div>
+          <span class="logo-text">MILAN ĆELAP</span>
+        </a>
+      </div><!--site-logo-->
+      <nav class="main-nav" >
+        <ul>
+          <li><a href="#portfolio">MY WORK</a></li>
+          <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+      </nav><!--main-nav-->
+    </div>
+    <button id="nav-toggle" class="nav-toggle" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button><!--nav-toggle-->
+  </div><!--header-flex-wrapper-->
+</div><!--MAIN-HEADER-->
+<div class="scroll-section" data-section-name="home" id="welcome-section">
+<section class="main-wrapper">
+  <div class="main-container">
+    <article class="content">
+      <h1>Hi! My name is Milan and I'm a web designer/developer.</h1>
+    </article>
+      <img class="hero-image" src="https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="nice illustration">
+  </div>
+  <div class="bottom-text" id="bottom-text-home">
+    <h1>Hello</h1>
+  </div>
+</section><!--MAIN-CONTENT-->
+<div class="main-bottom-bar">
+</div>
+</div>
+<div class="scroll-section" data-section-name="portfolio">
+<section class="portfolio-wrapper">
+  <div class="portfolio-container" id="projects"> 
+    <a class="project-tile" id="card-one" href="#" target="_blank">
+      <h3 class="project-tile-text">Technical documentation project</h3>
+      <div class="image-placeholder">
+        <img src="https://live.staticflickr.com/65535/49530037668_e1369f46c2_o.png" alt="Technical documentation project">
+      </div>
+    </a>
+    <a class="project-tile" id="card-two" href="#" target="_blank">
+      <h3 class="project-tile-text">Landing page project</h3>
+      <div class="image-placeholder">
+        <img src="https://live.staticflickr.com/65535/49530765767_dc5b51215f_o.png" alt="Landing page project">
+      </div>
+    </a>
+    <a class="project-tile" id="card-three" href="#" target="_blank">
+      <h3 class="project-tile-text">Survey form project</h3>
+      <div class="image-placeholder">
+        <img src="https://live.staticflickr.com/65535/49530765757_e159b74abb_o.png" alt="Survey form project">
+      </div>
+    </a>
+    <a class="project-tile" id="card-four" href="#" target="_blank">
+      <h3 class="project-tile-text">Tribute page project</h3>
+      <div class="image-placeholder">
+        <img src="https://live.staticflickr.com/65535/49530540811_1d02058850_o.png" alt="Tribute page project">
+      </div>
+    </a>
+  </div>
+  <div class="bottom-text" id="bottom-text-portfolio">
+    <h1>My work</h1>
+  </div>
+</section><!--PORTFOLIO-->
+<div class="portfolio-bottom-bar">
+</div>
+</div>
+<div class="scroll-section" data-section-name="contact">
+<section class="contact-wrapper">
+  <div class="contact-container">
+    <div id="contact-info">
+      <p>Contact me anytime via:</p>
+    </div>
+    <div class="contact-icons">
+      <ul>
+        <li>
+          <a href="mailto:milan.celap@gmail.com"><i class="far fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="tel:+381638117004"><i class="fas fa-phone-alt"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/messages/compose?recipient_id=milance" data-screen-name="@milance" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+        <a href="https://github.com/milancelap" id="profile-link" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom-text" id="bottom-text-contact">
+    <h1>Say hi</h1>
+  </div>
+</section><!--CONTACT-->
+<div class="footer-wrapper">
+  <footer class="main-footer">
+    <p class="footer-text">
+      © 2020 Milan Ćelap
+    </p>
+    <a href="#home" label="Go to the top of the page" class="footer-top-page"><i class="fas fa-chevron-up"></i></a>
+  </footer>
+</div><!--FOOTER-->
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
