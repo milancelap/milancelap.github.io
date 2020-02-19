@@ -136,7 +136,7 @@ nav ul {
   align-items: center;
   margin-left: 0;
   align-self: flex-end;
-  padding: 0 20px;
+  padding: 0 3rem 0 4rem;
 }
 
 .site-logo.is-active {
@@ -201,7 +201,7 @@ nav ul {
 
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 3rem;
   padding: 5rem;
   width: 80vw;
@@ -278,7 +278,7 @@ nav ul {
 
 .project-tile-text {
   font-size: 1em;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
   color: #247ba0;  
 }
@@ -423,6 +423,9 @@ nav ul {
   }
   .nav-toggle {
     display: none;
+  }
+  .main-container {
+    grid-template-columns: 1fr 1fr;
   }
   .hero-image {
     display: inline-block;
